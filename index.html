@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Gli script React sono caricati direttamente nell'iframe -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#progetti">Progetti</a></li>
+                    <li><a href="#">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <iframe src="http://localhost:3000" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; z-index: -1;"></iframe>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Creo esperienze web uniche</h1>
+                <a href="#progetti" class="btn">I miei progetti</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="progetti" id="progetti">
+        <div class="container">
+            <h2>I miei progetti</h2>
+            <div class="progetti-grid">
+                <!-- Qui verranno aggiunti i progetti in futuro -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Portfolio Web Designer. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
